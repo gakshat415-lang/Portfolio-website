@@ -1,0 +1,36 @@
+{
+  "profileImage": "/images/profile-alex.png",
+  "name": "Alex",
+  "bio": "I'm a multi-disciplinary designer and developer who loves building things that are both beautiful and functional. I believe the best digital experiences feel a little bit like magic and a lot like human connection.",
+  "location": "San Francisco, CA",
+  "hobby": "Coffee Enthusiast",
+  "experience": [
+    {
+      "role": "Senior Product Designer",
+      "company": "TechNova Solutions",
+      "dates": "2021 - Present",
+      "description": "Led the redesign of the core SaaS platform, improving user retention by 25%. Collaborated closely with engineering to implement a new fluid design system across web and mobile platforms."
+    },
+    {
+      "role": "UX/UI Designer",
+      "company": "Creative Bloom Agency",
+      "dates": "2018 - 2021",
+      "description": "Designed e-commerce experiences for boutique brands. Developed interactive prototypes and conducted user testing to refine navigation and checkout flows."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BFA in Interaction Design",
+      "school": "California College of the Arts",
+      "dates": "2014 - 2018"
+    },
+    {
+      "degree": "Certificate in Front-End Web Dev",
+      "school": "General Assembly",
+      "dates": "2019"
+    }
+  ],
+  "skills": [
+    "Figma", "Prototyping", "HTML/CSS", "Tailwind CSS", "JavaScript", "User Research", "Design Systems", "Animation"
+  ]
+}

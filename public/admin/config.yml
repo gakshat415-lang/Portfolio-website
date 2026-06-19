@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Enable local development backend to save files to the local repo without pushing to GitHub during testing
+local_backend: true
+
+media_folder: "public/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "ID", name: "id", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Published At", name: "published_at", widget: "datetime", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Gallery", name: "gallery", widget: "list", field: {label: "Image", name: "image", widget: "image"}, required: false}
+      - {label: "Summary", name: "summary", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "newsletters"
+    label: "Newsletters"
+    folder: "content/newsletters"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "ID", name: "id", widget: "string", required: false}
+      - {label: "Issue Number", name: "issue_number", widget: "number", required: false}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sent At", name: "sent_at", widget: "datetime", required: false}
+      - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
+      - {label: "Gallery", name: "gallery", widget: "list", field: {label: "Image", name: "image", widget: "image"}, required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
