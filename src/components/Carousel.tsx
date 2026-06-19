@@ -109,7 +109,7 @@ function Card({ item, index, x, activeIndex, router, onCardClick }: any) {
   const cardPosition = index * ITEM_WIDTH;
 
   // Real-Time Visual Syncing mapping offset to scale & opacity dynamically
-  const distance = useTransform(x, (latestX) => latestX + cardPosition);
+  const distance = useTransform(x, (latestX: number) => latestX + cardPosition);
 
   const scale = useTransform(distance, [-ITEM_WIDTH * 1.5, 0, ITEM_WIDTH * 1.5], [0.85, 1, 0.85]);
   const opacity = useTransform(distance, [-ITEM_WIDTH * 1.5, 0, ITEM_WIDTH * 1.5], [0.4, 1, 0.4]);

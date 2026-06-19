@@ -30,7 +30,7 @@ export default async function AboutPage() {
           
           <div className="flex flex-col items-center md:items-start text-center md:text-left flex-grow">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4">
-              Hi, I'm {data.name}
+              Hi, I&apos;m {data.name}
             </h1>
             <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed mb-6">
               {data.bio}

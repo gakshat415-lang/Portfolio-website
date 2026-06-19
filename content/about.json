@@ -1,7 +1,7 @@
 {
   "profileImage": "/images/profile-alex.png",
   "name": "Alex",
-  "bio": "I'm a multi-disciplinary designer and developer who loves building things that are both beautiful and functional. I believe the best digital experiences feel a little bit like magic and a lot like human connection.",
+  "bio": "i anskfdnas asdhdfiansdf",
   "location": "San Francisco, CA",
   "hobby": "Coffee Enthusiast",
   "experience": [
@@ -31,6 +31,15 @@
     }
   ],
   "skills": [
-    "Figma", "Prototyping", "HTML/CSS", "Tailwind CSS", "JavaScript", "User Research", "Design Systems", "Animation"
+    "Figma",
+    "Prototyping",
+    "HTML/CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "User Research",
+    "Design Systems",
+    "Animation",
+    "cartoon",
+    "lazy"
   ]
 }

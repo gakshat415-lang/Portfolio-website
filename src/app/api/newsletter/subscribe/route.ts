@@ -56,7 +56,7 @@ export async function POST(req: Request) {
             'Accept': 'application/json'
           },
           body: JSON.stringify({
-            sender: { name: 'Portfolio', email: 'no-reply@portfolio.test' },
+            sender: { name: 'Akshat Gupta', email: 'gakshat415@gmail.com' },
             to: [{ email: email }],
             subject: 'Welcome to the Newsletter!',
             htmlContent: '<html><body><p>Thanks for subscribing to my newsletter.</p></body></html>'

@@ -36,3 +36,33 @@ collections:
       - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
       - {label: "Gallery", name: "gallery", widget: "list", field: {label: "Image", name: "image", widget: "image"}, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about.json"
+        description: "Edit your profile, bio, experience, and education"
+        fields:
+          - {label: "Profile Image", name: "profileImage", widget: "image", required: false}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Bio", name: "bio", widget: "text"}
+          - {label: "Location", name: "location", widget: "string"}
+          - {label: "Hobby", name: "hobby", widget: "string", required: false}
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            fields:
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Company", name: "company", widget: "string"}
+              - {label: "Dates", name: "dates", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "Education"
+            name: "education"
+            widget: "list"
+            fields:
+              - {label: "Degree", name: "degree", widget: "string"}
+              - {label: "School", name: "school", widget: "string"}
+              - {label: "Dates", name: "dates", widget: "string"}
+          - {label: "Skills", name: "skills", widget: "list", field: {label: "Skill", name: "skill", widget: "string"}}
