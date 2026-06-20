@@ -7,7 +7,7 @@ export default function Footer() {
         </div>
         
         <nav className="flex items-center gap-6 text-sm text-slate-600 dark:text-slate-300">
-          <a href="mailto:gakshat415@gmail.com" className="hover:text-slate-900 dark:hover:text-white transition-colors">Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gakshat415@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 dark:hover:text-white transition-colors">Email</a>
           <a href="https://www.linkedin.com/in/callmeakshat/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 dark:hover:text-white transition-colors">LinkedIn</a>
           <a href="https://github.com/gakshat415-lang" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 dark:hover:text-white transition-colors">GitHub</a>
         </nav>
