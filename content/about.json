@@ -1,33 +1,33 @@
 {
-  "profileImage": "/images/profile-alex.png",
-  "name": "Akshat",
-  "bio": "i anskfdnas asdhdfiansdf",
-  "location": "San Francisco, CA",
-  "hobby": "Coffee Enthusiast",
+  "profileImage": "/assets/whatsapp-image-2026-06-30-at-11.41.27-am.jpeg",
+  "name": "Akshat Gupta",
+  "bio": "Product Manager specializing in building data-backed, user-first experiences. I leverage my background in stakeholder management and scaling high-value portfolios to design product strategies that balance business goals with frictionless UX.",
+  "location": "Noida, India",
+  "hobby": "Coffee & AI Enthusiast",
   "experience": [
     {
-      "role": "Senior Product Designer",
-      "company": "TechNova Solutions",
-      "dates": "2021 - Present",
-      "description": "Led the redesign of the core SaaS platform, improving user retention by 25%. Collaborated closely with engineering to implement a new fluid design system across web and mobile platforms."
+      "role": "Product growth ",
+      "company": "HDFC Bank ",
+      "dates": "2025-2026",
+      "description": "Acted as a powerful user proxy, systematically collecting and synthesizing user feedback from high-value HDFC clients to inform product roadmaps and features. \n\nMapped user journeys within critical banking workflows to identify user friction points, and collaborated with product and design teams to implement user-first, empathetic solutions."
     },
     {
-      "role": "UX/UI Designer",
-      "company": "Creative Bloom Agency",
-      "dates": "2018 - 2021",
-      "description": "Designed e-commerce experiences for boutique brands. Developed interactive prototypes and conducted user testing to refine navigation and checkout flows."
+      "role": "Key Account Manager ",
+      "company": "Sarthak Industries ",
+      "dates": "2022-2023 ",
+      "description": "Translated enterprise client pain points into actionable product and service improvements, leveraging strong stakeholder management to bridge the gap between B2B client needs and internal capabilities. \n\nAnalyzed account health and retention metrics across a high-value portfolio to identify user friction, proactively implementing value-driven solutions that maximized customer satisfaction and minimized churn."
     }
   ],
   "education": [
     {
-      "degree": "BFA in Interaction Design",
-      "school": "California College of the Arts",
-      "dates": "2014 - 2018"
+      "degree": "MBA",
+      "school": "ICFAI Business School ",
+      "dates": "2023- 2025"
     },
     {
-      "degree": "Certificate in Front-End Web Dev",
-      "school": "General Assembly",
-      "dates": "2019"
+      "degree": "BA ",
+      "school": "Maharaja Agrasen Institute of Management ",
+      "dates": "2019-2022"
     }
   ],
   "skills": [
@@ -38,8 +38,7 @@
     "JavaScript",
     "User Research",
     "Design Systems",
-    "Animation",
-    "cartoon",
-    "lazy"
+    "User Acquisition & Adoption Strategy",
+    "Stakeholder Management"
   ]
 }
