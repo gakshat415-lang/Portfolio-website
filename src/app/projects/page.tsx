@@ -28,8 +28,8 @@ export default function ProjectsPage() {
             return (
               <div key={p.slug} className={`bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col ${isFeatured ? 'md:col-span-2 lg:col-span-2' : 'col-span-1'}`}>
                 <div className="w-full h-[280px] sm:h-[320px] bg-slate-100 dark:bg-slate-800 relative">
-                  {p.coverImage && (
-                    <Image src={p.coverImage} alt={p.title} fill className="object-cover" />
+                  {(p.coverImage || p.thumbnail) && (
+                    <Image src={p.coverImage || p.thumbnail} alt={p.title} fill className="object-cover" />
                   )}
                 </div>
                 
